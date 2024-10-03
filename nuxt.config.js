@@ -27,11 +27,18 @@ export default {
   plugins: [
   ],
 
+  styleResources: {
+    scss: ['~/assets/scss/variables.scss', '~/assets/scss/_z-index.scss']
+  },
+
+  
+
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/style-resources'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
